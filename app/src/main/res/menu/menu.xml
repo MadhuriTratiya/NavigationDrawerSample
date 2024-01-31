@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/mettress"
+        android:title="Mattress"/>
+
+    <item
+        android:id="@+id/sofa"
+        android:title="Sofa"/>
+
+    <item
+        android:id="@+id/pillow"
+        android:title="Pillow"/>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/furniture">
+
+        <item android:id="@+id/modernbed"
+            android:title="ModernBed"
+            tools:ignore="DuplicateIds" />
+
+        <item android:id="@+id/kitchen"
+            android:title="Kitchen"/>
+
+        <item android:id="@+id/slider"
+            android:title="Slider"/>
+    </group>
+    <item
+        android:id="@+id/contactUs"
+        android:title="Contact Us"
+        android:icon="@drawable/ic_sharp_contact_page_24"/>
+</menu>
